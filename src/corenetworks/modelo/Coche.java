@@ -1,4 +1,4 @@
-package corenetworks.presentacion;
+package corenetworks.modelo;
 
 public class Coche {
     //1.Atributos

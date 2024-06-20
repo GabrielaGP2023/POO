@@ -1,5 +1,7 @@
 package corenetworks.presentacion;
 
+import corenetworks.modelo.Coche;
+
 public class Main {
     public static void main(String[] args) {
         //Instanciar - crear un objeto
@@ -28,6 +30,28 @@ public class Main {
         System.out.println(c2.acelerar());
         System.out.println(c2.aparcar());
         System.out.println(c2.frenar());
+        int integer=0;
+        String numericString = switch(integer) {
+            case 0 ->
+                "hola 0";
+
+            case 1, 3, 5, 7, 9 -> {
+                String value = "hola 5";
+                yield value;
+            }
+            case 2, 4, 6, 8, 10 -> {
+                String value = "hola 6";
+                yield value;
+            }
+            default -> {
+                String value = "hola D";
+                yield value;
+            }
+
+
+        };
+        System.out.println(numericString);
+
 
 
     }

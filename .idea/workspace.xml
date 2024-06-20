@@ -4,18 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456c68ac-d271-4805-baf4-c76f9afb9d11" name="Changes" comment="Primer commit 10:30" />
+    <list default="true" id="456c68ac-d271-4805-baf4-c76f9afb9d11" name="Changes" comment="Primer commit 10:30">
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Areas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Campo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/SaludarEj1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAreas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarCampo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarCurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarSaludarEj1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/TestAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Coche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2i5f007tzGwasXHxXVDU9ZTw3tN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,12 +50,102 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.ProbarAreas.executor": "Run",
+    "Application.ProbarCampo.executor": "Run",
+    "Application.ProbarCurso.executor": "Run",
+    "Application.ProbarGerente.executor": "Run",
+    "Application.ProbarSaludarEj1.executor": "Run",
+    "Application.ProbarUsuario.executor": "Run",
+    "Application.TestAnimal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2024/IFCT0609-CoreNetworks-2024/Proyectos/POO/src",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ggp20\Documents\Cursos2024\IFCT0609-CoreNetworks-2024\Proyectos\POO\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProbarCampo">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.Main" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarAreas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAreas" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarCampo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarCampo" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarSaludarEj1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarSaludarEj1" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.TestAnimal" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProbarCampo" />
+        <item itemvalue="Application.ProbarAreas" />
+        <item itemvalue="Application.TestAnimal" />
+        <item itemvalue="Application.ProbarSaludarEj1" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
