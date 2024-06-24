@@ -8,7 +8,7 @@ public class  Gerente extends Empleado{
 
     @Override
     public double calcularNomina() {
-        return super.calcularNomina() + bono;
+        return super.calcularNomina() + (bono*PORCENTAJE);
     }
 
     //Constructores
